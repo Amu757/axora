@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+Axora Solutions – React Frontend Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Axora Solutions is a modern BPO (Business Process Outsourcing) company website built with React.
+This project showcases company services, expertise, and contact details in a professional layout with responsive design.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+⚡ React Frontend – Built with React and React Router DOM
 
-### `npm start`
+📱 Responsive Design – Fully mobile-friendly UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎨 Custom Components – Navbar, Footer, Service Cards, Contact Page, etc.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🖼️ Image + Text Sections – Alternating layout for "Why Choose Us"
 
-### `npm test`
+🔝 Auto Scroll to Top – Smooth page navigation experience
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 React Router Integration – Seamless navigation without reloads
 
-### `npm run build`
+🧩 Reusable UI Components – Easy to maintain and expand
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📂 Project Structure
+axora-solutions-frontend/
+│── public/              # Static files (logo, banner images, etc.)
+│── src/
+│   ├── components/      # Navbar, Footer, ScrollToTop, etc.
+│   ├── pages/           # Home, Services, About, Contact
+│   ├── App.js           # Main App with Routes
+│   ├── index.js         # React entry point
+│── package.json         # Dependencies & scripts
+│── README.md            # Project documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚙️ Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the Repository
 
-### `npm run eject`
+git clone https://github.com/Amu757/axora
+cd axora-solutions-frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Start Development Server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Build for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm run build
 
-### Analyzing the Bundle Size
+🛠️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+React.js – UI Library
 
-### Making a Progressive Web App
+React Router DOM – Page navigation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+CSS3 / Flexbox / Grid – Styling
 
-### Advanced Configuration
+Node.js + NPM – Package management
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📖 Pages
 
-### Deployment
+Home Page – Banner, services, expertise, why choose us
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Services Page – Detailed services with cards
 
-### `npm run build` fails to minify
+About Page – Company story, mission, leadership team
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact Page – Company details, banner, logo section, footer
