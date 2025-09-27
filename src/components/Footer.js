@@ -30,20 +30,20 @@ function Footer() {
             <p>
               Email:{" "}
               <a href="mailto:md@axorasolutions.com">
-                md@axorasolutions.com
+                business@axorasolution.com
               </a>
             </p>
-            <p>Phone: (+91) 88306-19049</p>
+            <p>Phone: (+91) 92263 09135</p>
             <div className="social-links">
-              <a href="#">Facebook</a> | <a href="#">LinkedIn</a> |{" "}
-              <a href="#">Twitter</a>
+              <a href="#">LinkedIn</a> |{" "}
             </div>
           </div>
         </div>
 
         <div className="footer-bottom">
           <p>
-            © {new Date().getFullYear()} Axora Solutions Private Limited. All rights reserved.
+            © {new Date().getFullYear()} Axora Solutions Private Limited. All
+            rights reserved.
           </p>
         </div>
       </footer>

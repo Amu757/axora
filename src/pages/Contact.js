@@ -20,8 +20,8 @@ const Contact = () => {
         <div className="contact-info">
           <h2>Axora Solutions Private Limited</h2>
           <p>Your trusted partner for business process outsourcing.</p>
-          <p><strong>Email:</strong> md@axorasolutions.com</p>
-          <p><strong>Phone:</strong> (+91) 88306-19049</p>
+          <p><strong>Email:</strong> business@axorasolution.com</p>
+          <p><strong>Phone:</strong> (+91) 92263 09135</p>
         </div>
       </div>
 
